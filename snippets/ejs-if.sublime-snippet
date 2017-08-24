@@ -1,10 +1,12 @@
 <snippet>
   <content><![CDATA[
-/*eslint-disable*/
+<% if (${1:expression}) { %>
+  ${2:body...}
+<% } %>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>esd</tabTrigger>
+  <tabTrigger>ejsif</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
-  <description>eslint disable block</description>
+  <scope>text.html.basic</scope>
+  <description>ejs if grammar</description>
 </snippet>

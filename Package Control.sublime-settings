@@ -27,8 +27,8 @@
 		"FileDiffs",
 		"FileHeader",
 		"FuzzyFilePath",
+		"Gist",
 		"GitGutter",
-		"Gitignored File Excluder",
 		"GitSavvy",
 		"JavaScript Completions",
 		"jQuery",
@@ -54,6 +54,7 @@
 		"TrailingSpaces",
 		"Vintage Surround",
 		"Vintageous",
-		"VintageousOrigami"
+		"VintageousOrigami",
+		"Vue Syntax Highlight"
 	]
 }

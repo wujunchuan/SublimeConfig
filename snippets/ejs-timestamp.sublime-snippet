@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-/*eslint-disable*/
+<%= new Date().getTime() %>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>esd</tabTrigger>
+  <tabTrigger>ejstime</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
-  <description>eslint disable block</description>
+  <scope>string.quoted.double.html</scope>
+  <description>添加一个时间戳(避免C端缓存)</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
   <content><![CDATA[
-/*eslint-disable*/
+<%${1:type} ${2:expression} %>
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>esd</tabTrigger>
+  <tabTrigger>ejscm</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
-  <description>eslint disable block</description>
+  <scope>text.html.basic</scope>
+  <description>ejs commom expression</description>
 </snippet>

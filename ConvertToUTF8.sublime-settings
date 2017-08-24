@@ -1,0 +1,5 @@
+{
+  // Convert when loading/saving a file
+  "convert_on_load" : true,
+  "convert_on_save" : false
+}

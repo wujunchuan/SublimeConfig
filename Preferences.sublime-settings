@@ -1,15 +1,6 @@
 {
-	// from css3 plugin note that:
-	// I also strongly recommend adding these two settings to your User Settings (the
-	// general settings, not the package settings). By default, Sublime will not offer
-	// completions inside other completions. In other words, the completions menu is
-	// suppressed when you're tabbing through a snippet. This blocks most of the CSS3
-	// completions from appearing. To fix this, set these keys to true:
-
-	// "auto_complete_commit_on_tab": false,
-	"auto_complete_commit_on_tab": true,
+	"auto_complete_commit_on_tab": false,
 	"auto_complete_with_fields": true,
-
 	"auto_find_in_selection": true,
 	"binary_file_patterns":
 	[
@@ -73,13 +64,17 @@
 		"views-pro",
 		"CVS"
 	],
-	"font_size": 10,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"CSS",
-		"Vintage"
+		"Gist",
+		"GitSavvy",
+		"Nodejs",
+		"Vintage",
+		"Vue Syntax Highlight"
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 2,
