@@ -1,2 +1,3 @@
 [
+  { "keys": ["super+x"], "command": "reopen_last_file" },
 ]

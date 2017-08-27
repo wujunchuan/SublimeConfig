@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+imageView2/${1:mode}/w/${2:width}/h/${3:height}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdnm</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic meta.tag.inline.any.html meta.attribute-with-value.html string.quoted.double.html</scope>
+</snippet>

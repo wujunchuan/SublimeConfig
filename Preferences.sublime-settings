@@ -70,9 +70,7 @@
 	"ignored_packages":
 	[
 		"CSS",
-		"Gist",
 		"GitSavvy",
-		"Nodejs",
 		"Vintage",
 		"Vue Syntax Highlight"
 	],
