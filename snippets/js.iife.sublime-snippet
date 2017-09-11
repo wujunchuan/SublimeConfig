@@ -1,0 +1,14 @@
+<!-- https://www.fedepot.com/javascriptli-ji-zhi-xing-han-shu-iife/ IIFE、放大模式、宽放大模式-->
+<snippet>
+  <content><![CDATA[
+(function(${1:module}){
+  ${2://...some code}
+  return ${1:module}
+})(window.${1:module}||{});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>iife</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+  <description>IIFE module</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<% ${1:data}.forEach(function(e) { %>
+  <%= e.${2:module} %>
+<% }) %>
+]]></content> <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ejsfe</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic</scope>
+  <description>EJS moduel engine - forEach loop</description>
+</snippet>
