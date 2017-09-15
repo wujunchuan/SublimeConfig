@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+#/usr/bin/env ${1:bash}
+]]></content>
+  <tabTrigger>sct</tabTrigger>
+  <scope>source.shell</scope>
+  <description>script title like #!/usr/bin/env {bash|node}</description>
+</snippet>
