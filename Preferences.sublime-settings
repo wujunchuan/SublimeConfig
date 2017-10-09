@@ -59,9 +59,9 @@
 		".svn",
 		".git",
 		".hg",
+		".idea",
 		"node_modules",
 		"public/assets",
-		"views-pro",
 		"CVS"
 	],
 	"font_size": 12,
@@ -69,7 +69,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"GitSavvy",
 		"Nodejs",
 		"Vintage",
 		"Vue Syntax Highlight"

@@ -10,15 +10,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_FF0000FF</string>
+<string>mcol_FFD700FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#FF0000FF</string>
+<string>#FFD700FF</string>
 <key>foreground</key>
-<string>#4C0000FF</string>
+<string>#4C4000FF</string>
 <key>caret</key>
-<string>#4C0000FF</string>
+<string>#4C4000FF</string>
 </dict>
 </dict>
 
@@ -26,111 +26,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_FF0000FF</string>
+<string>mcol_text_FFD700FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#ECECEdFF</string>
 <key>foreground</key>
-<string>#FF0000FF</string>
+<string>#FFD700FF</string>
 <key>caret</key>
-<string>#4C0000FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_008000FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#008000FF</string>
-<key>foreground</key>
-<string>#7FFF7FFF</string>
-<key>caret</key>
-<string>#7FFF7FFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_008000FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#ECECEdFF</string>
-<key>foreground</key>
-<string>#008000FF</string>
-<key>caret</key>
-<string>#7FFF7FFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_ccccccFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#ccccccFF</string>
-<key>foreground</key>
-<string>#323232FF</string>
-<key>caret</key>
-<string>#323232FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_ccccccFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#ECECEdFF</string>
-<key>foreground</key>
-<string>#ccccccFF</string>
-<key>caret</key>
-<string>#323232FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_0000FFFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#0000FFFF</string>
-<key>foreground</key>
-<string>#00004CFF</string>
-<key>caret</key>
-<string>#00004CFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_0000FFFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#ECECEdFF</string>
-<key>foreground</key>
-<string>#0000FFFF</string>
-<key>caret</key>
-<string>#00004CFF</string>
+<string>#4C4000FF</string>
 </dict>
 </dict>
 
@@ -1024,6 +928,72 @@
                 <key>foreground</key>
                 <string>#565656</string>
             </dict>
+        </dict>
+        <!--======================================
+        =       Persistent Regex Highlights      =
+        =======================================-->
+        <!-- Warm Blue color -->
+        <dict>
+        	<key>name</key>
+        	<string>Highlight Color Warm Blue</string>
+        	<key>scope</key>
+        	<string>highlight.color.ADD8E6</string>
+        	<key>settings</key>
+        	<dict>
+        		<key>foreground</key>
+        		<string>#ADD8E6</string>
+        	</dict>
+        </dict>
+        <!-- Misty Rose color -->
+        <dict>
+        	<key>name</key>
+        	<string>Highlight Color MistyRose</string>
+        	<key>scope</key>
+        	<string>highlight.color.FFE4E1</string>
+        	<key>settings</key>
+        	<dict>
+        		<key>foreground</key>
+        		<string>#FFE4E1</string>
+        	</dict>
+        </dict>
+        <!-- Green Tea color -->
+        <dict>
+        	<key>name</key>
+        	<string>Highlight Color Green Tea</string>
+        	<key>scope</key>
+        	<string>highlight.color.D0F0C0</string>
+        	<key>settings</key>
+        	<dict>
+        		<key>foreground</key>
+        		<string>#D0F0C0</string>
+        	</dict>
+        </dict>
+        <!--===================================
+        =            SublimeLinter            =
+        ====================================-->
+        <!-- SublimeLinter: warning -->
+        <dict>
+        	<key>name</key>
+        	<string>SublimeLinter: Warning</string>
+        	<key>scope</key>
+        	<string>sublimelinter.mark.warning</string>
+        	<key>settings</key>
+        	<dict>
+        		<key>foreground</key>
+        		<string>#DDB700</string>
+        	</dict>
+        </dict>
+        <!-- SublimeLinter: error -->
+        <dict>
+        	<key>name</key>
+        	<string>SublimeLinter: Error</string>
+        	<key>scope</key>
+        	<string>sublimelinter.mark.error</string>
+        	<key>settings</key>
+        	<dict>
+        		<key>foreground</key>
+        		<string>#D02000</string>
+        	</dict>
         </dict>
     </array>
     <key>uuid</key>

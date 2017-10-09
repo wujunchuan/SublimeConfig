@@ -49,6 +49,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-stylelint",
 		"Surround",
 		"SyncedSideBar",
 		"Terminal",
